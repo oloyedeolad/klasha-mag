@@ -7,10 +7,11 @@ namespace Klasha\Klasha\Model;
 use Klasha\Klasha\Api\PaymentInterface;
 use Magento\Framework\Event\Manager;
 use mysql_xdevapi\Exception;
+use Magento\Payment\Helper\Data as PaymentHelper;
 
 class Payment implements PaymentInterface
 {
-    const CODE = 'klasha_pay';
+    const CODE = 'klasha_checkout';
 
     protected $config;
 
