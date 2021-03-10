@@ -4,7 +4,6 @@
   "description": "N/A",
   "type": "magento2-module",
   "require": {
-    "magento/framework": "*"
   },
   "minimum-stability": "dev",
   "license": [
