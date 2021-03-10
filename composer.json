@@ -6,6 +6,7 @@
   "require": {
     "magento/framework": "*"
   },
+  "minimum-stability": "dev",
   "license": [
     "Proprietary"
   ],
