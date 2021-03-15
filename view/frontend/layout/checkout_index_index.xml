@@ -21,10 +21,10 @@
                                                         <item name="renders" xsi:type="array">
                                                             <!-- merge payment method renders here -->
                                                             <item name="children" xsi:type="array">
-                                                                <item name="klasha_checkout" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Gladepay_Checkout/js/view/payment/gladepay_checkout</item>
+                                                                <item name="klasha-klasha" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Klasha_Klasha/js/view/payment/klasha_klasha</item>
                                                                     <item name="methods" xsi:type="array">
-                                                                        <item name="klasha_checkout" xsi:type="array">
+                                                                        <item name="klasha_klasha" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
                                                                     </item>

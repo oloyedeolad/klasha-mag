@@ -3,7 +3,7 @@
     <event name="sales_order_place_after">
         <observer name="AfterOrderObserver" instance="Klasha\Klasha\Observer\AfterOrderObserver" />
     </event>
-    <event name="kl_payment_verify_after">
+    <event name="klasha_payment_verify_after">
         <observer name="AfterPaymentVerifyObserver" instance="Klasha\Klasha\Observer\AfterPaymentVerifyObserver" />
     </event>
 </config>

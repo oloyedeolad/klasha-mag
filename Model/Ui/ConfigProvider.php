@@ -11,7 +11,7 @@ use Magento\Store\Model\Store as Store;
  */
 final class ConfigProvider implements ConfigProviderInterface
 {
-    const CODE = 'klasha_checkout';
+    const CODE = 'klasha_klasha';
 
     protected $method;
 

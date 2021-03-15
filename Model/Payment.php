@@ -11,7 +11,7 @@ use Magento\Payment\Helper\Data as PaymentHelper;
 
 class Payment implements PaymentInterface
 {
-    const CODE = 'klasha_checkout';
+    const CODE = 'klasha_klasha';
 
     protected $config;
 
@@ -38,7 +38,7 @@ class Payment implements PaymentInterface
         $base_url = "https://gate.klasapps.com";
 
         if ($this->config->getConfigData('go_live')) {
-            $this->endpoint = "https://gate.klasapps.com/payment";
+            $this->endpoint = "https://gate.klasapps.com/pay";
         }
     }
 

@@ -3,11 +3,11 @@
     <type name="Magento\Checkout\Model\CompositeConfigProvider">
         <arguments>
             <argument name="configProviders" xsi:type="array">
-                <item name="klasha_checkout_config_provider" xsi:type="object">Klasha\Klasha\Model\Ui\ConfigProvider</item>
+                <item name="klasha_klasha_config_provider" xsi:type="object">Klasha\Klasha\Model\Ui\ConfigProvider</item>
             </argument>
         </arguments>
     </type>
-    <type name="Gladepay\Checkout\Block\Info">
+    <type name="klasha\klasha\Block\Info">
         <arguments>
             <argument name="data" xsi:type="array">
                 <item xsi:type="string" name="is_secure_mode">1</item>
